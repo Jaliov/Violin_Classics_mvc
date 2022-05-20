@@ -15,9 +15,10 @@ $this->view("header", $data);
             <a href="https://lisabflamenco.herokuapp.com/" class="btn btn-outline-danger btn-light btn-list"
                 target="_blank">Lisa Botalico
                 Flamenco!</a><br>
-            <a href="https://boiling-beyond-86124.herokuapp.com/" class="btn btn-outline-danger btn-light' btn-list"
-                target="_blank">Website
-                Portfolio</a>
+
+                <a href="https://soundwavecompany.com/products/birds-out-my-window" class="btn btn-outline-danger btn-light btn-list"
+                target="_blank">A piece of music I composed!</a><br>
+           
         </div>
     </div>
 </div>
