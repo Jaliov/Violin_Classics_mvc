@@ -42,7 +42,7 @@ if (!empty($data['name_entry']) &&
     }
    
 echo "<div class = 'container'>
-    <form method = 'POST' action = 'contact.php'>
+    <form method = 'POST' action = 'contact'>
    <span class = 'text-danger' id='reset'>$formSubmit</submit>
     </div>
          <label for='name_entry' class ='text-light'>Name</label>
@@ -66,4 +66,4 @@ echo "<div class = 'container'>
         </script>
         </div>" ?>
 
-<?php require 'footer.php' ?>
+<?php $this->view("footer",$data);?>
