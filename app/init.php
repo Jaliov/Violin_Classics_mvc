@@ -1,5 +1,4 @@
 <?php
-
 // require_once "../app/core/links.php";
 // require_once "../app/core/delete.php";
 require_once "../app/core/app.php";
