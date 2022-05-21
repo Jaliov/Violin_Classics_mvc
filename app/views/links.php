@@ -17,7 +17,7 @@ $this->view("header", $data);
                 Flamenco!</a><br>
 
                 <a href="https://soundwavecompany.com/products/birds-out-my-window" class="btn btn-outline-danger btn-light btn-list"
-                target="_blank">A piece of music I composed!</a><br>
+                target="_blank">Music by Me</a><br>
            
         </div>
     </div>

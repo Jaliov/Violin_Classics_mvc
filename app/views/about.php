@@ -1,7 +1,6 @@
 <?php
 $this->view("header", $data);
 ?>
-
                 <div class="alert text-light rounded-bottom" >
                 <ul id="alertFormat">
                 <li>Violin virtuosos (and one violist) from the 1940's to the present, perform masterworks of the
