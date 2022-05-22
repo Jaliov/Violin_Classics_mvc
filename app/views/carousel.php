@@ -5,33 +5,33 @@
 
 <div class="carousel slide carousel-fade" data-ride="carousel">
 
-                <div class="carousel-inner">
+<div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./musicianImages/Vivaldi.jpg" alt="Vivaldi">
+                        <img src="assets/musicianImages/Vivaldi.jpg" alt="Vivaldi">
                     </div>
                     <div class="carousel-item">
-                        <img src="./musicianImages/u-g-PNSWF90.jpg" alt="Beethoven">
+                        <img src="assets/musicianImages/u-g-PNSWF90.jpg" alt="Beethoven">
                     </div>
                     <div class="carousel-item">
-                        <img src="./musicianImages/Tchaikovsky.jpg" alt="Tchaikovsky">
+                        <img src="assets/musicianImages/Tchaikovsky.jpg" alt="Tchaikovsky">
                     </div>
                     <div class="carousel-item">
-                        <img src="musicianImages/Mozart.jpg" alt="Mozart">
+                        <img src="assets/musicianImages/Mozart.jpg" alt="Mozart">
                     </div>
                     <div class="carousel-item">
-                        <img src="musicianImages/Paganini.jpg" alt="Paganini">
+                        <img src="assets/musicianImages/Paganini.jpg" alt="Paganini">
                     </div>
                     <div class="carousel-item">
-                        <img src="musicianImages/Jean_Sibelius,_1913.jpg" alt="Jean Sibelius">
+                        <img src="assets/musicianImages/Jean_Sibelius,_1913.jpg" alt="Jean Sibelius">
                     </div>
                     <div class="carousel-item">
-                        <img src="musicianImages/Johannes_Brahms_portrait.jpg" alt="Brahms">
+                        <img src="assets/musicianImages/Johannes_Brahms_portrait.jpg" alt="Brahms">
                     </div>
                     <div class="carousel-item">
-                        <img src="musicianImages/Bach.jpg" alt="Bach">
+                        <img src="assets/musicianImages/Bach.jpg" alt="Bach">
                     </div>
                     <div class="carousel-item">
-                        <img src="musicianImages/Mendelssohn.jpg" alt="Mendelssohn">
+                        <img src="assets/musicianImages/Mendelssohn.jpg" alt="Mendelssohn">
                     </div>
                 </div>
             </div>
