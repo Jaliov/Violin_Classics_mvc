@@ -12,7 +12,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href='./assets/css/style.css'>
     
-    <title>Great Violinists History</title>
+    <title>Great Violinists Past & Present Play the Classics</title>
+    <meta name = "description" content="An historical overview of great violin concertos as played by great violinists, past and present"> 
+    <meta name=”robots” content="index, follow">
 </head>
 
 <body>
