@@ -7,31 +7,31 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/musicianimages/Vivaldi.jpg" alt="Vivaldi, composer of numerous great violin concertos">
+                        <img src="assets/musicianimages/Vivaldi.jpg" alt="Vivaldi">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/u-g-PNSWF90.jpg" alt="Beethoven wrote a transcendent Violin Concerto in D Major">
+                        <img src="assets/musicianimages/u-g-PNSWF90.jpg" alt="Beethoven">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Tchaikovsky.jpg" alt="Tchaikovsky wrote a formidable violin concerto in D">
+                        <img src="assets/musicianimages/Tchaikovsky.jpg" alt="Tchaikovsky">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Mozart.jpg" alt="Mozart, concerto No 3, Symphonia Concertante for violin and viola">
+                        <img src="assets/musicianimages/Mozart.jpg" alt="Mozart">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Paganini.jpg" alt="Paganini violin concertos">
+                        <img src="assets/musicianimages/Paganini.jpg" alt="Paganini" >
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Jean_Sibelius,_1913.jpg" alt="Jean Sibelius wrote a magnificent violin concerto!">
+                        <img src="assets/musicianimages/Jean_Sibelius,_1913.jpg" alt="Sibelius">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Johannes_Brahms_portrait.jpg" alt="Brahms composed his great violin concerto in D">
+                        <img src="assets/musicianimages/Johannes_Brahms_portrait.jpg" alt="Brahms">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Bach.jpg" alt="Bach, legendary composer, wrote two violin concertos">
+                        <img src="assets/musicianimages/Bach.jpg" alt="Bach">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/musicianimages/Mendelssohn.jpg" alt="Mendelssohn composed the great violin concerto in E minor">
+                        <img src="assets/musicianimages/Mendelssohn.jpg" alt="Mendelssohn">
                     </div>
                 </div>
             </div>
