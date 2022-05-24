@@ -70,7 +70,7 @@ $musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
 $musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
 ?>
 <?php foreach($musicians as $musician): //Bach?>
-<?php echo $buttonPlace . "data-content='$musician->info'  title = '$musician->role'>$musician->name</button>"; ?>
+<?php echo $buttonPlace . "data-content='$musician->info'  title = '$musician->role'>JS Bach</button>"; ?>
 <?php endforeach; echo "</div></div>"; ?>
 
 <?php echo $view4; ?>
@@ -120,7 +120,7 @@ $stmt->execute(array($id)); $musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
 ?>
 
 <?php foreach($musicians as $musician): ?>
-<?php echo $buttonPlace . "data-content='$musician->info'  title = '$musician->role'>Mozart</button></br><a class = 'btn btn-outline-danger btn-sm text-light' href='https://frozen-beach-43331.herokuapp.com/' target='_blank'   id='heifetz_link'>Viola Test!</a>"; ?>
+<?php echo $buttonPlace . "data-content='$musician->info'  title = '$musician->role'>Mozart</button></br><a class = 'btn btn-outline-danger btn-sm text-light' href='https://frozen-beach-43331.herokuapp.com/' target='_blank'   id='heifetz_link'>Test your knowledge of the viola!</a>"; ?>
 <?php endforeach; echo "</div></div><br>";?>
 
 <?php echo $view5; ?>
