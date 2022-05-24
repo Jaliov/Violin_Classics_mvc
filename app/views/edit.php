@@ -4,7 +4,7 @@
 $this->view("header", $data);
 
 
-require 'db.php';
+require '../app/core/db_connect.php'; ?>
 
 if(isset($_GET['id'])) {
     $id = $_GET['id'];

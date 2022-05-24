@@ -1,0 +1,12 @@
+<?php
+
+class Edit extends Controller
+{
+    function index() 
+    {
+        $data['page_title'] = 'Edit';
+        $this->view("edit", $data);   
+    }        
+}
+
+?>

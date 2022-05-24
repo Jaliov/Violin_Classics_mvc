@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php require '../app/core/db_connect.php'; ?>
 <?php include 'carousel.php'; ?>
 <?php require 'video_list.php'; ?>
 <?php require 'views.php'; ?>

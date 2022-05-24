@@ -19,8 +19,7 @@
 
 <body>
     <?php require 'navbar.php'; ?>
-    <?php require '../app/core/db_connect.php'; ?>
-
+   
     <div class="container container-fluid">
         <div class="card text-center bg-transparent">
 
