@@ -6,7 +6,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 <div class="container-fluid">
   <a class="navbar-brand" href='index.php'><span class='text-danger'>Violin Classics!</span></a>
-  <button class="navbar-toggler bg-transparent" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
