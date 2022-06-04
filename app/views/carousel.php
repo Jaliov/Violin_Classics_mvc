@@ -7,7 +7,7 @@
 
 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/musicianImages/Vivaldi.jpg" alt="Vivaldi">
+                        <img src="assets/musicianImages/Vivaldi.jpg" alt="Vivaldi"><br/>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/musicianImages/u-g-PNSWF90.jpg" alt="Beethoven">

@@ -1,3 +1,9 @@
+<script>
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+</script>
+
 <?php
 $NameError="";
 $message = "failed";
@@ -25,14 +31,16 @@ $stmt->execute( array( ':nameEntry'=>$name,  ':emailEntry'=>$email, ':textEntry'
 } catch(PDOException $e) {
   echo $sql . "<br>" . $e->getMessage();
 }
-$connection = null;
+// $connection = null;
 
 $data = $_POST;
 if (!empty($data['name_entry']) &&
     !empty($data['email']) &&
     !empty($data['comments'])) {
     $formSubmit = 'submitted';
+    unset($data);
     } else {
+      $connection = "";
       $formSubmit = '<h5>please fill out all fields</h5>';
     }
  ?>  
