@@ -1,6 +1,6 @@
-<?php
-$this->view("header", $data);
-?>
+<?php 
+
+require 'header-min.php'; ?>
 <?php require '../app/core/db_connect.php'; ?>
 <?php require '../app/core/form_db.php'; ?>
 
@@ -35,4 +35,4 @@ $this->view("header", $data);
 </script>
 </div>
 
-<?php $this->view("footer", $data); ?>
+<?php require 'footer.php' ?>
