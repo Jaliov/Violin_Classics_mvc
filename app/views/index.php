@@ -1,5 +1,5 @@
 <?php
-$this->view("header", $data);
+require "header.php";
 ?>
 <?php require 'video1.php' ?>
 <?php require 'footer.php' ?>
