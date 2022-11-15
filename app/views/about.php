@@ -1,5 +1,5 @@
 <?php
-$this->view("header", $data);
+require "header.php";
 ?>
                 <div class="alert text-light rounded-bottom" >
                 <ul id="alertFormat">
@@ -14,6 +14,4 @@ $this->view("header", $data);
                 </li><br>
                 </ul>
                 </div>
-                <?php
-$this->view("footer", $data);
-?>
+                <?php require 'footer.php' ?>
