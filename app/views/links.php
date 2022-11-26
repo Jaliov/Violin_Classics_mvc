@@ -1,5 +1,7 @@
+
 <?php
-$this->view("header", $data);
+require "header.php";
+?>
 ?>
 
 <div class="card text-danger bg-transparent">
