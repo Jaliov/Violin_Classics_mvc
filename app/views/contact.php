@@ -1,6 +1,6 @@
 <?php 
 
-require 'header-min.php'; ?>
+require 'header.php'; ?>
 <?php require '../app/core/db_connect.php'; ?>
 <?php require '../app/core/form_db.php'; ?>
 
