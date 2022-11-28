@@ -8,7 +8,7 @@ $clip3 = "https://www.youtube.com/embed/cokCgWPRZPg?start=226&end=1473"; #Perlam
 
 $clip4 = "https://www.youtube.com/embed/eS1IG2BBy1Y?start=54"; //Mutter Mendelssohn
 
-$clip5 = "https://www.youtube.com/embed/CmmpjziKcFU";  //Bach Double Jensen Kavakos
+$clip5 = "https://www.youtube.com/embed/_ohsBg6onXY";  //Bach Double Jensen Kavakos
 
 $clip6 = "https://www.youtube.com/embed/RFkSiNp4CRQ"; // Brahms Oistrakh
 
@@ -20,7 +20,7 @@ $clip9 = "https://www.youtube.com/embed/pg-ruM6lzM0?start=208"; //Paganini Ricci
 
 $clip10 = "https://www.youtube.com/embed/VaAGFXuqA7g"; //Mozart3 Menuhin
 
-$clip11 = "https://www.youtube.com/embed/LZ48G9UziRs"; //Oistrak Menuhin Bach Double
+$clip11 = "https://www.youtube.com/embed/CmmpjziKcFU"; //Oistrak Menuhin Bach Double
 
 $clip12 = "https://www.youtube.com/embed/SSbZRpuW08k?start=71"; # Hahn Mozart 3 
 
