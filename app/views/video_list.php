@@ -8,7 +8,7 @@ $clip3 = "https://www.youtube.com/embed/cokCgWPRZPg?start=226&end=1473"; #Perlam
 
 $clip4 = "https://www.youtube.com/embed/eS1IG2BBy1Y?start=54"; //Mutter Mendelssohn
 
-$clip5 = "https://www.youtube.com/embed/_ohsBg6onXY";  //Bach Double Jensen Kavakos
+$clip5 = "https://www.youtube.com/embed/CmmpjziKcFU";  //Bach Double Jensen Kavakos
 
 $clip6 = "https://www.youtube.com/embed/RFkSiNp4CRQ"; // Brahms Oistrakh
 
