@@ -13,7 +13,9 @@
     <link rel="stylesheet" href='./assets/css/style.css'>
     
     <title>Great Violinists Past & Present Play the Classics</title>
-    <meta name = "description" content="An historical overview of great violin concertos as played by great violinists, past and present"> 
+    <meta name ="author" meta name="Joel Rudin"  />
+    <meta name = "description" content="Discover great violinists and great violin concertos with this historical overview of great violin concertos as played by great violinists, past and present."  /> 
+    <meta name = "keywords" content ="great violinists, violin concertos, violin solists, violin history, classical music" />
     <meta name=”robots” content="index, follow">
 </head>
 
