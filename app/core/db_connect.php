@@ -28,7 +28,8 @@ $dbname = 'heroku_f67f9289f8a7d06';
 $dsn = 'mysql:host='.$host . ';dbname=' . $dbname;
 
 try{
-    $connection = new PDO($dsn, $username, $password, $options); 
+    $connection = new PDO($dsn, $username, $password, $options);
+    echo "connected";
     
 } catch(PDOException $e) {
     echo '<p class ="text-light">There was an unexpected error</p>';

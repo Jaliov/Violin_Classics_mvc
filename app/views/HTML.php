@@ -1,6 +1,10 @@
+<style>
+  <?php include './assets/css/style.css';
+  ?>
+  </style>
 
 <?php 
-$card="<div class='card mb-3 cardSpacing bg-transparent'><div class='embed-responsive embed-responsive-21by9' style='margin-top:20px;'>"; 
+$card="<div class='card mb-3 cardSpacing bg-transparent'><div class='embed-responsive embed-responsive-21by9' id='embed'>"; 
 
 $buttonPlace="<button type='button' class='btn-outline-danger btn-light' data-toggle='popover' data-placement='top' data-trigger='hover' id = 'popoverStyle'"; 
 

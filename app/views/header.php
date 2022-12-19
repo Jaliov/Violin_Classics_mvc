@@ -14,8 +14,8 @@
     
     <title>Great Violinists Past & Present Play the Classics</title>
     <meta name ="author" meta name="Joel Rudin"  />
-    <meta name = "description" content="Discover great violinists and great violin concertos with this historical overview of great violin concertos as played by great violinists, past and present."  /> 
-    <meta name = "keywords" content ="great violinists, violin concertos, violin solists, violin history, classical music" />
+    <meta name = "description" content="Discover great violinists and great violin concertos with this historical overview of great violin concertos as played by famous violinists, past and present."  /> 
+    <meta name = "keywords" content ="great violinists, violin concertos, violin solists, violin history, classical music, classical violinists, famous violinists " />
     <meta name=”robots” content="index, follow">
 </head>
 

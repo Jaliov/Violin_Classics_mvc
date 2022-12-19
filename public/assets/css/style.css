@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
 
 body {
-  background-image: url('violin_subtract.png');
+  background-image: url("violin_subtract.png");
 }
 
 .container {
@@ -13,8 +13,8 @@ body {
   z-index: 1;
 }
 #heifetz_link {
-  margin-top: 0.5em;
- margin-bottom: 20%;
+  margin-top: -20px;
+  margin-bottom: 5%;
 }
 
 #navbarNav {
@@ -29,11 +29,9 @@ body {
   padding: 1rem;
   box-shadow: 5px 15px 5px rgb(217, 83, 79, 0.6);
 }
-
-/* #coll2, #coll4 {
-   height: 80px; 
-   background-color: rgba(46, 43, 43);
- } */
+button.btn-light {
+  margin-bottom: 20px;
+}
 
 .navbar {
   background-color: rgb(217, 83, 79, 0.2);
@@ -43,19 +41,23 @@ body {
     margin-bottom: -3rem;
   }
 }
-#header {
+h2 {
   /* margin-bottom: 30px; */
-  font-family: 'Marko One', serif;
+  font-family: "Marko One", serif;
   margin-bottom: 20px;
+}
+@keyframes animtext {
+  from {
+    width: 0;
+    transition: all 2s ease-in-out;
+  }
 }
 
 .navbar-brand {
-  font-family: 'Marko One', serif;
+  font-family: "Marko One", serif;
   padding-bottom: -0.1rem;
 }
-/* .alert,.form-control, .card  {
-   box-shadow: 10px 5px rgb(217, 83, 79, 0.3)
- }    */
+
 
 @media only screen and (max-width: 600px) {
   #header {
@@ -84,10 +86,10 @@ h2 {
 
 .cardSpacing {
   box-shadow: 0px 0px;
-  padding-bottom: 1rem; 
- width: auto;
- height: auto; 
- margin-bottom: -50px;
+  padding-bottom: 1rem;
+  width: auto;
+  height: auto;
+  margin-bottom: -50px;
 }
 
 .btn-list {
@@ -119,4 +121,7 @@ h2 {
 }
 LABEL {
   font-size: 120%;
+}
+#embed {
+  margin-top: 20px;
 }
