@@ -29,7 +29,7 @@ $dsn = 'mysql:host='.$host . ';dbname=' . $dbname;
 
 try{
     $connection = new PDO($dsn, $username, $password, $options);
-    echo "connected";
+    echo "<p style = 'color: rgb(66, 9, 7, 0.3);font-size:80%;margin-bottom:-10px'><small>connected</small></p>";
     
 } catch(PDOException $e) {
     echo '<p class ="text-light">There was an unexpected error</p>';

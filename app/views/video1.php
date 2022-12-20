@@ -15,7 +15,7 @@ class View
     public $connection;
     public $role;
     public $info;
-
+    public $spacer;
     public function get_info()
     {
         require 'HTML.php';
@@ -44,9 +44,11 @@ class View
         foreach ($musicians as $musician) :
             echo $buttonPlace . "data-content='$musician->info' title = '$musician->role'>$musician->name</button>";
         endforeach;
+    }
+    public function spacer()
+    {
         echo "</div></div>";
     }
-
     function __construct($view, $id, $connection, $info)
     {
         $this->view = $view;
@@ -55,163 +57,55 @@ class View
         $this->info = $info;
     }
 }
-
 $view_1 = new View($view1, 20, $connection,  $info1);
-$view_1->get_info();
-$view_1 = new View('', 19, $connection, '');
-$view_1->get_composer();
+$view_1->get_info(); //Szeryng
+$view_1 = new View('', 19, $connection, '',);
+$view_1->get_composer(); //Vivaldi
+$view_1->spacer();
 
-?>
+$view_2 = new View($view2, 2, $connection,  $info2);
+$view_2->get_info(); //Chung
+$view_2 = new View('', 3, $connection, '');
+$view_2->get_composer(); //Bach
+$view_2->spacer();
 
-<?php echo $view2; #Kyung Wha Chung Bach A minor:
-?>
-<?php
-$id = 2;
+$view_3 = new View($view3, 4, $connection,  $info3);
+$view_3->get_info();
+$view_3 = new View('', 7, $connection, '');
+$view_3->get_composer();
+$view_3 = new View('', 3, $connection, '');
+$view_3->get_composer();
+$view_3->spacer();
+
+$view_4 = new View($view4, 5, $connection,  $info4);
+$view_4->get_info(); //Hahn
+$view_4 = new View('', 6, $connection, '');
+$view_4->get_composer(); //Mozart
+$view_4->spacer();
+
+$view_5 = new View($view11, 21, $connection,  $info5);
+$view_5->get_info();
+$view_5 = new View('', 22, $connection, '');
+$view_5->get_composer();
+$view_5 = new View('', 6, $connection, '');
+$view_5->get_composer();
+$view_5 = new View('', 6, $connection, '');
+
+$id = 6;
 $stmt = $connection->prepare('SELECT * FROM musicians WHERE id = ?');
 $stmt->execute(array($id));
 $musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $info2 . $musician->concerto . "</span></div></div>"; ?>
 
-    <?php echo $buttonPlace .
-        "data-content= '$musician->info' title = '$musician->role'>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-<?php $id = 3;
-$stmt; //Bach
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $buttonPlace . "data-content='$musician->info' title = '$musician->role'>$musician->name</button>"; ?>
+foreach ($musicians as $musician) : ?>
+    <br><a class='btn btn-outline-danger btn-sm text-light' style="margin-bottom:2px;" href='https://frozen-beach-43331.herokuapp.com/' target='_blank' id='heifetz_link'>Test your knowledge of the viola!</a>"; 
 <?php endforeach;
-echo "</div></div>"; ?>
+$view_5->spacer();
 
-<?php echo $view3;  //Menuhin 
-?>
-<?php $id = 4;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $info3 . $musician->concerto . "</span></div></div>"; ?>
-
-    <?php echo $buttonPlace .
-        "data-content= '$musician->info' title = '$musician->role'>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-<?php  //Oistrakh
-$id = 7;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $buttonPlace .
-        "data-content= '$musician->info' title = $musician->role ?>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-<?php $id = 3;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : //Bach
-?>
-    <?php echo $buttonPlace . "data-content='$musician->info'  title = '$musician->role'>JS Bach</button>"; ?>
-<?php endforeach;
-echo "</div></div>"; ?>
-
-<?php echo $view4; ?>
-<?php $id = 5;
-$stmt; //Hahn
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $info4 . $musician->concerto . "</span></div></div>"; ?>
-    <?php echo $buttonPlace .
-        "data-content= '$musician->info' title = '$musician->role'>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-<?php $id = 6;
-$stmt; //Mozart
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $buttonPlace . "data-content='$musician->info' title = '$musician->role'>$musician->name</button>"; ?>
-<?php endforeach;
-echo "</div></div>"; ?>
-
-<?php echo $view11; ?>
-<?php  //Wolfram Brandl
-$id = 21;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $info5 . $musician->concerto .
-        "</span></div></div>"; ?>
-
-    <?php echo $buttonPlace .
-        "data-content= '$musician->info;' title = '$musician->role'>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-<?php  //Yulia Deyneka
-$id = 22;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $buttonPlace .
-        "data-content= '$musician->info' title = $musician->role ?>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-
-<?php $id = 6;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $buttonPlace . "data-content='$musician->info'  title = '$musician->role'>Mozart</button></br><a class = 'btn btn-outline-danger btn-sm text-light' href='https://frozen-beach-43331.herokuapp.com/' target='_blank'   id='heifetz_link'>Test your knowledge of the viola!</a>"; ?>
-<?php endforeach;
-echo "</div></div><br>"; ?>
-
-<?php echo $view5; ?>
-<!--Beethoven -->
-<?php $id = 13;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-$perlman = "He played the solo violin passages in John Williams’s Oscar-winning score for the movie Schindler’s List (1993)."; ?>
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $info6 . $musician->concerto .
-        "</span></div></div>"; ?>
-
-    <?php echo $buttonPlace .  "title = '$musician->role'
-data-content= '$musician->info $perlman'>$musician->name</button>"; ?>
-<?php endforeach; ?>
-
-<?php $id = 14;
-$stmt;
-$stmt->execute(array($id));
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-?>
-
-<?php foreach ($musicians as $musician) : ?>
-    <?php echo $buttonPlace .  "title = '$musician->role'
-data-content= '$musician->info' ?>$musician->name</button>"; ?>
-<?php endforeach;
-echo "</div></div>";
+$view_6 = new View($view5, 13, $connection,  $info6);
+$view_6->get_info(); //Perlaman
+$view_6 = new View('', 14, $connection, '');
+$view_6->get_composer();
+$view_6->spacer();
 ?>
 
 <?php echo $view6; ?>
