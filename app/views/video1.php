@@ -74,7 +74,6 @@ $view_3->get_info();
 $view_3 = new View('', 7, $connection, '');
 $view_3->get_composer();
 $view_3 = new View('', 3, $connection, '');
-$view_3->get_composer();
 $view_3->spacer();
 
 $view_4 = new View($view4, 5, $connection,  $info4);
@@ -88,18 +87,23 @@ $view_5->get_info();
 $view_5 = new View('', 22, $connection, '');
 $view_5->get_composer();
 $view_5 = new View('', 6, $connection, '');
-$view_5->get_composer();
-$view_5 = new View('', 6, $connection, '');
-
 $id = 6;
-$stmt = $connection->prepare('SELECT * FROM musicians WHERE id = ?');
+$stmt = $connection->prepare('SELECT * FROM musicians WHERE id = ?'); //just Mozart
 $stmt->execute(array($id));
 $musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
 
-foreach ($musicians as $musician) : ?>
-    <br><a class='btn btn-outline-danger btn-sm text-light' style="margin-bottom:2px;" href='https://frozen-beach-43331.herokuapp.com/' target='_blank' id='heifetz_link'>Test your knowledge of the viola!</a>"; 
-<?php endforeach;
-$view_5->spacer();
+foreach ($musicians as $musician) : 
+echo $buttonPlace . "title = '$musician->role'
+title = '$musician->role'
+data-content= '$musician->info' ?>Mozart</button>"; 
+endforeach;
+$stmt->execute(array($id)); $musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
+
+?>
+
+<?php foreach($musicians as $musician): ?>
+<div style="margin-top:-20px;"><a class = 'btn btn-outline-danger btn-sm text-light'  id = "violaReset"  href='https://frozen-beach-43331.herokuapp.com/'  target='_blank'>Test your knowledge of the viola here!</a></div>"; ?>
+<?php endforeach; echo "</div></div><br>";
 
 $view_6 = new View($view5, 13, $connection,  $info6);
 $view_6->get_info(); //Perlaman
