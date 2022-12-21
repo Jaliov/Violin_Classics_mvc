@@ -5,10 +5,6 @@ require 'video_list.php';
 require 'views.php';
 require './assets/js/popover_script.php';
 
-$stmt = $connection->prepare('SELECT * FROM musicians WHERE id = ?');
-$musicians = $stmt->fetchAll(PDO::FETCH_OBJ);
-$paganini = 'Niccolò Paganini';
-
 echo $heading;
 class View
 {
