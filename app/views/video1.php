@@ -164,5 +164,4 @@ $view_11 = new View('', 18, $connection, '');
 $view_11->get_composer(); //Sibelius
 $view_11->spacer();
 ?>
-</div>
-</div>
+

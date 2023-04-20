@@ -17,7 +17,8 @@ require "header.php";
         <a href="https://jaliov.github.io/JoelRudinArt/index.html" class="btn btn-outline-danger btn-light btn-list"  target="_blank">Joel Rudin Art</a>
 
         <div class="card-title">A piece I wrote:</div>    
-        <a href="https://soundwavecompany.com/products/birds-out-my-window" class="btn btn-outline-danger btn-light btn-list" target="_blank">My piece</a>           
+        <a href="https://birdsoutmywindow.hearnow.com/?fbclid=IwAR1LNn95SgEMbVt2ftO_O4EvwNNHjR2mUnmT8Hg5_YMAJOdVLcRhj9AX7-4" class="btn btn-outline-danger btn-light btn-list"  target="_blank">Birds
+                out My Window</a>        
         </div>
     </div>
 </div>
