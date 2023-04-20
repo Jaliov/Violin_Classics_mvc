@@ -22,19 +22,20 @@ class Info {
     public $coll;
 
     public function  getInfo() {
-        $this->info = "<div class='collapse' id= . $this->$coll . >";
-        "<div class='card card-body text-light bg-transparent'><span>";
+        $this->info = "<div class='collapse' >" 
+        . "<div class='card card-body text-light bg-transparent'><span>";
     }
 
     function __construct ($info, $coll) {
         $this->info = $info; 
-        $this->$coll = $coll
+        $this->$coll = $coll;
     }
+    
 
     
 }
 
-$info_1 = new Info()
+// $info_1 = new Info() {
 
 $info1 = "<div class='collapse' id='coll'>
 <div class='card card-body text-light bg-transparent'><span>";
